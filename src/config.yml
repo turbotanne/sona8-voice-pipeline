@@ -1,0 +1,7 @@
+model: whisper-medium
+language: auto
+sample_rate: 16000
+chunk_seconds: 30
+output:
+  formats: [json, markdown]
+  directory: outputs/

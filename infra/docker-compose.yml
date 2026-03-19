@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  api:
+    image: ghcr.io/sona8/voice-pipeline:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - SONA8_ENV=dev

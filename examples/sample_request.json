@@ -1,0 +1,5 @@
+{
+  "file": "s3://sona8/data/sample.wav",
+  "language": "auto",
+  "outputs": ["json", "markdown"]
+}

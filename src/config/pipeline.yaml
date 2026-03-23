@@ -1,0 +1,6 @@
+model: whisper-large-v3
+language: auto
+outputs:
+  - transcript
+  - summary
+  - action_items

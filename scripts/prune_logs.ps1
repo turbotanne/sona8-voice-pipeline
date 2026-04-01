@@ -1,0 +1,1 @@
+Get-ChildItem logs -Filter *.log | Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-14)} | Remove-Item

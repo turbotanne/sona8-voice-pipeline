@@ -1,0 +1,1 @@
+Get-Queue -Name "sona8-*" | Remove-QueueItem -Force

@@ -1,0 +1,1 @@
+Compress-Archive -Path metrics/* -DestinationPath archive/metrics.zip -Force

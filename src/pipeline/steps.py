@@ -1,0 +1,1 @@
+STEPS = [''ingest'', ''analyze'', ''summarize'']
